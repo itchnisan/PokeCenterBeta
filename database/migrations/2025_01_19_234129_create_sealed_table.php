@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('sealed', function (Blueprint $table) {
             $table->id();
             $table->foreignId('item_id')->constrained('items')->onDelete('cascade'); 
-            $table->timestamps(); // created_at et updated_at
+            $table->timestamps(); // created_at
         });
     }
 
