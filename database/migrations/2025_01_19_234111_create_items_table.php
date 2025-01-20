@@ -18,8 +18,11 @@ return new class extends Migration
             $table->string('item_language');
             $table->string('item_serie');
             $table->double('item_price', 15, 8);
+            $table->enum('item_quality',['poor','fair','good','very good','excellent','mint','gem mint']);
+            $table->bolean('item_grading');
             $table->timestamp('item_acquired_date')->nullable();
-            $table->foreignId('user_id')->constrained()->onDelete('cascade'); // Clé étrangère vers la table users
+            $table->foreignId('trade_id')->nullable()->constrained('trade')->onDelete('cascade'); // Clé étrangère vers trades
+            $table->foreignId('user_id')->constrained('users')->onDelete('cascade'); // Clé étrangère vers la table users
             $table->timestamps(); // created_at et updated_at
         });
     }

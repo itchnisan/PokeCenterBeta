@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('cards', function (Blueprint $table) {
             $table->id();
             $table->string('rarity');
-            $table->foreignId('item_id')->constrained()->onDelete('cascade'); 
+            $table->foreignId('item_id')->constrained('items')->onDelete('cascade'); 
             $table->timestamps(); // created_at et updated_at
         });
     }
