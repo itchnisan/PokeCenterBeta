@@ -14,10 +14,10 @@ return new class extends Migration
     {
         Schema::create('trade', function (Blueprint $table) {
             $table->id();
-            $table->enum('status',['nothing','pending','confirmed','declined','in delivery','rejected','finish'])->default('nothing');
+            $table->enum('trade_status',['nothing','pending','confirmed','declined','in delivery','rejected','finish'])->default('nothing');
             $table->foreignId('initiator_id')->constrained('users')->onDelete('cascade'); // Utilisateur initiateur
             $table->foreignId('receiver_id')->constrained('users')->onDelete('cascade'); // Utilisateur receveur
-            $table->timestamps();
+            $table->timestamps('trade_date');
         });
     }
 
