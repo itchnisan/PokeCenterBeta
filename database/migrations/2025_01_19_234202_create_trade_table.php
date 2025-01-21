@@ -9,15 +9,33 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    //id_trade	id_user_from	id_user_to	id_item	trade_date	status
     public function up(): void
     {
-        Schema::create('trade', function (Blueprint $table) {
+        Schema::create('trades', function (Blueprint $table) {
             $table->id();
-            $table->enum('trade_status',['nothing','pending','confirmed','declined','in delivery','rejected','finish'])->default('nothing');
-            $table->foreignId('initiator_item_id')->constrained('items')->onDelete('cascade'); // item de Utilisateur initiateur
-            $table->foreignId('receiver_item_id')->constrained('items')->onDelete('cascade'); // item de Utilisateur receveur
-            $table->timestamps('trade_date');
+            $table->enum('trade_status', [
+                'nothing',
+                'pending',
+                'confirmed',
+                'declined',
+                'in delivery',
+                'rejected',
+                'finish'
+            ])->default('nothing');
+            $table->foreignId('initiator_item_id')
+                  ->constrained('items')
+                  ->onDelete('cascade'); // Item de l'utilisateur initiateur
+            $table->foreignId('receiver_item_id')
+                  ->constrained('items')
+                  ->onDelete('cascade'); // Item de l'utilisateur receveur
+            $table->foreignId('initiator_id')
+                  ->constrained('users')
+                  ->onDelete('cascade'); // Item de l'utilisateur initiateur
+            $table->foreignId('receiver_id')
+                  ->constrained('users')
+                  ->onDelete('cascade'); // Item de l'utilisateur receveur
+            $table->timestamp('trade_date')->nullable(); // Date de l'échange
+            $table->timestamps(); // created_at et updated_at
         });
     }
 
@@ -26,6 +44,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('trade');
+        Schema::dropIfExists('trades');
     }
 };

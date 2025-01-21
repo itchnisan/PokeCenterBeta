@@ -17,7 +17,7 @@ return new class extends Migration
             $table->foreignId('buyer_id')->constrained('users')->onDelete('cascade');  // Acheteur
             $table->foreignId('item_id')->constrained('items')->onDelete('cascade');  // Item vendu
             $table->double('price', 15, 8); // Prix de vente
-            $table->timestamps('sale_date');
+            $table->timestamps(); // created_at et updated_at
         });
     }
 

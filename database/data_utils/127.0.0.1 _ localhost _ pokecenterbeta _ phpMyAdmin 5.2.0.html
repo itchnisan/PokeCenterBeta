@@ -1,0 +1,2965 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&db=pokecenterbeta -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex,nofollow">
+  
+  <link rel="icon" href="http://127.0.0.1/phpmyadmin/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="http://127.0.0.1/phpmyadmin/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/codemirror.css">
+  <link rel="stylesheet" type="text/css" href="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/show-hint.css">
+  <link rel="stylesheet" type="text/css" href="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/lint.css">
+  <link rel="stylesheet" type="text/css" href="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/theme.css">
+  <title>127.0.0.1 / localhost / pokecenterbeta | phpMyAdmin 5.2.0</title>
+    <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/jquery.min.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/jquery-migrate.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/sprintf.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/ajax.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/keyhandler.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/jquery-ui.min.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/name-conflict-fixes.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/bootstrap.bundle.min.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/js.cookie.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/jquery.validate.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/jquery-ui-timepicker-addon.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/jquery.debounce-1.0.6.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/menu_resizer.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/cross_framing_protection.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/messages.php"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/config.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/doclinks.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/functions.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/navigation.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/indexes.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/common.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/page_settings.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/structure.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/change.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/codemirror.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/sql.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/runmode.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/show-hint.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/sql-hint.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/lint.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/sql-lint.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/tracekit.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/error_report.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/drag_drop_import.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/shortcuts_handler.js.télécharger"></script>
+  <script data-cfasync="false" type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/console.js.télécharger"></script>
+
+<script data-cfasync="false" type="text/javascript">
+// <![CDATA[
+CommonParams.setAll({common_query:"",opendb_url:"index.php?route=/database/structure",lang:"en",server:"1",table:"",db:"pokecenterbeta",token:"6328763a3e5b274e3e7a4a455b7e2355",text_dir:"ltr",LimitChars:"50",pftext:"P",confirm:true,LoginCookieValidity:"36000",session_gc_maxlifetime:"36000",logged_in:true,is_https:false,rootPath:"/phpmyadmin/",arg_separator:"&",version:"5.2.0",auth_type:"cookie",user:"root"});
+var firstDayOfCalendar = '0';
+var themeImagePath = '.\/themes\/pmahomme\/img\/';
+var mysqlDocTemplate = '.\/url.php\u003Furl\u003Dhttps\u00253A\u00252F\u00252Fdev.mysql.com\u00252Fdoc\u00252Frefman\u00252F8.0\u00252Fen\u00252F\u002525s.html';
+var maxInputVars = 1000;
+
+if ($.datepicker) {
+  $.datepicker.regional[''].closeText = 'Done';
+  $.datepicker.regional[''].prevText = 'Prev';
+  $.datepicker.regional[''].nextText = 'Next';
+  $.datepicker.regional[''].currentText = 'Today';
+  $.datepicker.regional[''].monthNames = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ];
+  $.datepicker.regional[''].monthNamesShort = [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ];
+  $.datepicker.regional[''].dayNames = [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+  ];
+  $.datepicker.regional[''].dayNamesShort = [
+    'Sun',
+    'Mon',
+    'Tue',
+    'Wed',
+    'Thu',
+    'Fri',
+    'Sat',
+  ];
+  $.datepicker.regional[''].dayNamesMin = [
+    'Su',
+    'Mo',
+    'Tu',
+    'We',
+    'Th',
+    'Fr',
+    'Sa',
+  ];
+  $.datepicker.regional[''].weekHeader = 'Wk';
+  $.datepicker.regional[''].showMonthAfterYear = false;
+  $.datepicker.regional[''].yearSuffix = '';
+  $.extend($.datepicker._defaults, $.datepicker.regional['']);
+}
+
+if ($.timepicker) {
+  $.timepicker.regional[''].timeText = 'Time';
+  $.timepicker.regional[''].hourText = 'Hour';
+  $.timepicker.regional[''].minuteText = 'Minute';
+  $.timepicker.regional[''].secondText = 'Second';
+  $.extend($.timepicker._defaults, $.timepicker.regional['']);
+}
+
+function extendingValidatorMessages () {
+  $.extend($.validator.messages, {
+    required: 'This\u0020field\u0020is\u0020required',
+    remote: 'Please\u0020fix\u0020this\u0020field',
+    email: 'Please\u0020enter\u0020a\u0020valid\u0020email\u0020address',
+    url: 'Please\u0020enter\u0020a\u0020valid\u0020URL',
+    date: 'Please\u0020enter\u0020a\u0020valid\u0020date',
+    dateISO: 'Please\u0020enter\u0020a\u0020valid\u0020date\u0020\u0028\u0020ISO\u0020\u0029',
+    number: 'Please\u0020enter\u0020a\u0020valid\u0020number',
+    creditcard: 'Please\u0020enter\u0020a\u0020valid\u0020credit\u0020card\u0020number',
+    digits: 'Please\u0020enter\u0020only\u0020digits',
+    equalTo: 'Please\u0020enter\u0020the\u0020same\u0020value\u0020again',
+    maxlength: $.validator.format('Please\u0020enter\u0020no\u0020more\u0020than\u0020\u007B0\u007D\u0020characters'),
+    minlength: $.validator.format('Please\u0020enter\u0020at\u0020least\u0020\u007B0\u007D\u0020characters'),
+    rangelength: $.validator.format('Please\u0020enter\u0020a\u0020value\u0020between\u0020\u007B0\u007D\u0020and\u0020\u007B1\u007D\u0020characters\u0020long'),
+    range: $.validator.format('Please\u0020enter\u0020a\u0020value\u0020between\u0020\u007B0\u007D\u0020and\u0020\u007B1\u007D'),
+    max: $.validator.format('Please\u0020enter\u0020a\u0020value\u0020less\u0020than\u0020or\u0020equal\u0020to\u0020\u007B0\u007D'),
+    min: $.validator.format('Please\u0020enter\u0020a\u0020value\u0020greater\u0020than\u0020or\u0020equal\u0020to\u0020\u007B0\u007D'),
+    validationFunctionForDateTime: $.validator.format('Please\u0020enter\u0020a\u0020valid\u0020date\u0020or\u0020time'),
+    validationFunctionForHex: $.validator.format('Please\u0020enter\u0020a\u0020valid\u0020HEX\u0020input'),
+    validationFunctionForMd5: $.validator.format('This\u0020column\u0020can\u0020not\u0020contain\u0020a\u002032\u0020chars\u0020value'),
+    validationFunctionForAesDesEncrypt: $.validator.format('These\u0020functions\u0020are\u0020meant\u0020to\u0020return\u0020a\u0020binary\u0020result\u003B\u0020to\u0020avoid\u0020inconsistent\u0020results\u0020you\u0020should\u0020store\u0020it\u0020in\u0020a\u0020BINARY,\u0020VARBINARY,\u0020or\u0020BLOB\u0020column.')
+  });
+}
+
+ConsoleEnterExecutes=false
+
+AJAX.scriptHandler
+  .add('vendor/jquery/jquery.min.js', 0)
+  .add('vendor/jquery/jquery-migrate.js', 0)
+  .add('vendor/sprintf.js', 1)
+  .add('ajax.js', 0)
+  .add('keyhandler.js', 1)
+  .add('vendor/jquery/jquery-ui.min.js', 0)
+  .add('name-conflict-fixes.js', 1)
+  .add('vendor/bootstrap/bootstrap.bundle.min.js', 1)
+  .add('vendor/js.cookie.js', 1)
+  .add('vendor/jquery/jquery.validate.js', 0)
+  .add('vendor/jquery/jquery-ui-timepicker-addon.js', 0)
+  .add('vendor/jquery/jquery.debounce-1.0.6.js', 0)
+  .add('menu_resizer.js', 1)
+  .add('cross_framing_protection.js', 0)
+  .add('messages.php', 0)
+  .add('config.js', 1)
+  .add('doclinks.js', 1)
+  .add('functions.js', 1)
+  .add('navigation.js', 1)
+  .add('indexes.js', 1)
+  .add('common.js', 1)
+  .add('page_settings.js', 1)
+  .add('database/structure.js', 1)
+  .add('table/change.js', 1)
+  .add('vendor/codemirror/lib/codemirror.js', 0)
+  .add('vendor/codemirror/mode/sql/sql.js', 0)
+  .add('vendor/codemirror/addon/runmode/runmode.js', 0)
+  .add('vendor/codemirror/addon/hint/show-hint.js', 0)
+  .add('vendor/codemirror/addon/hint/sql-hint.js', 0)
+  .add('vendor/codemirror/addon/lint/lint.js', 0)
+  .add('codemirror/addon/lint/sql-lint.js', 0)
+  .add('vendor/tracekit.js', 1)
+  .add('error_report.js', 1)
+  .add('drag_drop_import.js', 1)
+  .add('shortcuts_handler.js', 1)
+  .add('console.js', 1)
+;
+$(function() {
+        AJAX.fireOnload('vendor/sprintf.js');
+        AJAX.fireOnload('keyhandler.js');
+        AJAX.fireOnload('name-conflict-fixes.js');
+      AJAX.fireOnload('vendor/bootstrap/bootstrap.bundle.min.js');
+      AJAX.fireOnload('vendor/js.cookie.js');
+            AJAX.fireOnload('menu_resizer.js');
+          AJAX.fireOnload('config.js');
+      AJAX.fireOnload('doclinks.js');
+      AJAX.fireOnload('functions.js');
+      AJAX.fireOnload('navigation.js');
+      AJAX.fireOnload('indexes.js');
+      AJAX.fireOnload('common.js');
+      AJAX.fireOnload('page_settings.js');
+      AJAX.fireOnload('database/structure.js');
+      AJAX.fireOnload('table/change.js');
+                    AJAX.fireOnload('vendor/tracekit.js');
+      AJAX.fireOnload('error_report.js');
+      AJAX.fireOnload('drag_drop_import.js');
+      AJAX.fireOnload('shortcuts_handler.js');
+      AJAX.fireOnload('console.js');
+  });
+// ]]>
+</script>
+
+  <noscript><style>html{display:block}</style></noscript>
+<script type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/database.js.télécharger"></script><script type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/objects.js.télécharger"></script><script type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/page.js.télécharger"></script><script type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/history.js.télécharger"></script><script type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/move.js.télécharger"></script><script type="text/javascript" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/init.js.télécharger"></script></head>
+<body style="margin-bottom: 21.4375px; margin-left: 240px; padding-top: 59.5625px;">
+    <div id="pma_navigation" class="d-print-none" data-config-navigation-width="240" style="width: 240px;">
+    <div id="pma_navigation_resizer" style="left: 240px; width: 3px;"></div>
+    <div id="pma_navigation_collapser" title="Hide panel" style="left: 240px;">←</div>
+    <div id="pma_navigation_content">
+      <div id="pma_navigation_header">
+
+                  <div id="pmalogo">
+                          <a href="http://127.0.0.1/phpmyadmin/index.php">
+                                      <img id="imgpmalogo" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/logo_left.png" alt="phpMyAdmin">
+                                      </a>
+                      </div>
+        
+        <div id="navipanellinks">
+          <a href="http://127.0.0.1/phpmyadmin/index.php?route=/" title="Home"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Home" alt="Home" class="icon ic_b_home"></a>
+
+                      <a class="logout disableAjax" href="http://127.0.0.1/phpmyadmin/index.php?route=/logout" title="Log out"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Log out" alt="Log out" class="icon ic_s_loggoff"></a>
+          
+          <a href="http://127.0.0.1/phpmyadmin/doc/html/index.html" title="phpMyAdmin documentation" target="_blank" rel="noopener noreferrer"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="phpMyAdmin documentation" alt="phpMyAdmin documentation" class="icon ic_b_docs"></a>
+
+          <a href="http://127.0.0.1/phpmyadmin/url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F8.0%2Fen%2Findex.html" title="MySQL Documentation" target="_blank" rel="noopener noreferrer"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="MySQL Documentation" alt="MySQL Documentation" class="icon ic_b_sqlhelp"></a>
+
+          <a id="pma_navigation_settings_icon" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" title="Navigation panel settings"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Navigation panel settings" alt="Navigation panel settings" class="icon ic_s_cog"></a>
+
+          <a id="pma_navigation_reload" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" title="Reload navigation panel"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Reload navigation panel" alt="Reload navigation panel" class="icon ic_s_reload"></a>
+        </div>
+
+        
+        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Loading…" alt="Loading…" style="visibility: hidden; display:none" class="icon ic_ajax_clock_small throbber">
+      </div>
+      <div id="pma_navigation_tree" class="list_container synced highlight autoexpand" style="height: 942.312px;">
+  <div class="pma_quick_warp">
+    <div class="drop_list"><button title="Recent tables" class="drop_button btn">Recent</button><ul id="pma_recent_list"><li class="warp_link">
+            There are no recent tables.    </li>
+</ul></div>    <div class="drop_list"><button title="Favorite tables" class="drop_button btn">Favorites</button><ul id="pma_favorite_list"><li class="warp_link">
+            There are no favorite tables.    </li>
+</ul></div>    <div class="clearfloat"></div>
+</div>
+
+
+<div class="clearfloat"></div>
+
+<ul>
+  
+  <!-- CONTROLS START -->
+<li id="navigation_controls_outer">
+    <div id="navigation_controls">
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="pma_navigation_collapse" title="Collapse all"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Collapse all" alt="Collapse all" class="icon ic_s_collapseall"></a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="pma_navigation_sync" title="Unlink from main panel"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Unlink from main panel" alt="Unlink from main panel" class="icon ic_s_link"></a>
+    </div>
+</li>
+<!-- CONTROLS ENDS -->
+
+</ul>
+
+
+
+<div id="pma_navigation_tree_content" style="height: 887.375px;">
+  <ul>
+      <li class="first new_database italics">
+    <div class="block">
+      <i class="first"></i>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/server/databases"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="New" alt="New" class="icon ic_b_newdb"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/server/databases" title="New">New</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h" data-vpath="cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h" data-pos="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/operations&amp;db=information_schema"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/structure&amp;db=information_schema" title="Structure">information_schema</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.bXlzcWw=" data-vpath="cm9vdA==.bXlzcWw=" data-pos="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/operations&amp;db=mysql"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/structure&amp;db=mysql" title="Structure">mysql</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h" data-vpath="cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h" data-pos="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/operations&amp;db=performance_schema"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/structure&amp;db=performance_schema" title="Structure">performance_schema</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database selected">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander loaded" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cG9rZWNlbnRlcmJldGE=" data-vpath="cm9vdA==.cG9rZWNlbnRlcmJldGE=" data-pos="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="" alt="" class="icon ic_b_minus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/operations&amp;db=pokecenterbeta"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/structure&amp;db=pokecenterbeta" title="Structure">pokecenterbeta</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+  <div class="list_container">
+    <ul>
+  <span class="hide pos2_nav" data-name="tables" data-value="0"></span>
+
+  <li class="new_table italics new_table italics">
+    <div class="block">
+      <i></i>
+              <span class="hide pos2_nav" data-name="tables" data-value="0"></span>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/table/create&amp;db=pokecenterbeta"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="New" alt="New" class="icon ic_b_table_add"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/table/create&amp;db=pokecenterbeta" title="New">New</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="nav_node_table nav_node_table">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cG9rZWNlbnRlcmJldGE=.dGFibGVz.ZmFpbGVkX2pvYnM=" data-vpath="cm9vdA==.cG9rZWNlbnRlcmJldGE=.VGFibGVz.ZmFpbGVkX2pvYnM=" data-pos="0"></span>
+                      <span class="hide pos2_nav" data-name="tables" data-value="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/table/structure&amp;db=pokecenterbeta&amp;table=failed_jobs"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/sql&amp;pos=0&amp;db=pokecenterbeta&amp;table=failed_jobs" title="Browse">failed_jobs</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="nav_node_table nav_node_table">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cG9rZWNlbnRlcmJldGE=.dGFibGVz.bWlncmF0aW9ucw==" data-vpath="cm9vdA==.cG9rZWNlbnRlcmJldGE=.VGFibGVz.bWlncmF0aW9ucw==" data-pos="0"></span>
+                      <span class="hide pos2_nav" data-name="tables" data-value="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/table/structure&amp;db=pokecenterbeta&amp;table=migrations"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/sql&amp;pos=0&amp;db=pokecenterbeta&amp;table=migrations" title="Browse">migrations</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="nav_node_table nav_node_table">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cG9rZWNlbnRlcmJldGE=.dGFibGVz.cGFzc3dvcmRfcmVzZXRfdG9rZW5z" data-vpath="cm9vdA==.cG9rZWNlbnRlcmJldGE=.VGFibGVz.cGFzc3dvcmRfcmVzZXRfdG9rZW5z" data-pos="0"></span>
+                      <span class="hide pos2_nav" data-name="tables" data-value="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/table/structure&amp;db=pokecenterbeta&amp;table=password_reset_tokens"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/sql&amp;pos=0&amp;db=pokecenterbeta&amp;table=password_reset_tokens" title="Browse">password_reset_tokens</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="nav_node_table nav_node_table">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cG9rZWNlbnRlcmJldGE=.dGFibGVz.cGVyc29uYWxfYWNjZXNzX3Rva2Vucw==" data-vpath="cm9vdA==.cG9rZWNlbnRlcmJldGE=.VGFibGVz.cGVyc29uYWxfYWNjZXNzX3Rva2Vucw==" data-pos="0"></span>
+                      <span class="hide pos2_nav" data-name="tables" data-value="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/table/structure&amp;db=pokecenterbeta&amp;table=personal_access_tokens"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/sql&amp;pos=0&amp;db=pokecenterbeta&amp;table=personal_access_tokens" title="Browse">personal_access_tokens</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="nav_node_table last nav_node_table">
+    <div class="block">
+      <i></i>
+              
+        <a class="expander" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cG9rZWNlbnRlcmJldGE=.dGFibGVz.dXNlcnM=" data-vpath="cm9vdA==.cG9rZWNlbnRlcmJldGE=.VGFibGVz.dXNlcnM=" data-pos="0"></span>
+                      <span class="hide pos2_nav" data-name="tables" data-value="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/table/structure&amp;db=pokecenterbeta&amp;table=users"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/sql&amp;pos=0&amp;db=pokecenterbeta&amp;table=users" title="Browse">users</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+
+
+
+    </ul>
+  </div>
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cG9rZWNlbnRlcnByb2plY3Q=" data-vpath="cm9vdA==.cG9rZWNlbnRlcnByb2plY3Q=" data-pos="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/operations&amp;db=pokecenterproject"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/structure&amp;db=pokecenterproject" title="Structure">pokecenterproject</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="last database">
+    <div class="block">
+      <i></i>
+              
+        <a class="expander" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.c3lz" data-vpath="cm9vdA==.c3lz" data-pos="0"></span>
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/operations&amp;db=sys"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/structure&amp;db=sys" title="Structure">sys</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+
+  </ul>
+</div>
+
+
+</div>
+
+      <div id="pma_navi_settings_container">
+                  
+              </div>
+    </div>
+
+          <div class="pma_drop_handler">
+        Drop files here      </div>
+      <div class="pma_sql_import_status">
+        <h2>
+          SQL upload          ( <span class="pma_import_count">0</span> )
+          <span class="close">x</span>
+          <span class="minimize">-</span>
+        </h2>
+        <div></div>
+      </div>
+      </div>
+  
+
+
+  
+  <div id="prefs_autoload" class="alert alert-primary d-print-none hide" role="alert">
+    <form action="http://127.0.0.1/phpmyadmin/index.php?route=/preferences/manage" method="post" class="disableAjax">
+        <input type="hidden" name="token" value="6328763a3e5b274e3e7a4a455b7e2355">
+        <input type="hidden" name="json" value="">
+        <input type="hidden" name="submit_import" value="1">
+        <input type="hidden" name="return_url" value="index.php?route=%2Fdatabase%2Fstructure&amp;db=pokecenterbeta">
+        Your browser has phpMyAdmin configuration for this domain. Would you like to import it for current session?        <br>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#yes">Yes</a>
+        / <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#no">No</a>
+        / <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#delete">Delete settings</a>
+    </form>
+</div>
+
+
+  
+      
+  
+      <div id="floating_menubar" class="d-print-none" style="margin-left: 243px; left: 0px; position: fixed; top: 0px; width: 100%; z-index: 99;">
+<nav id="server-breadcrumb" aria-label="breadcrumb">
+  <ol class="breadcrumb breadcrumb-navbar">
+    <li class="breadcrumb-item">
+      <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="" alt="" class="icon ic_s_host">
+      <a href="http://127.0.0.1/phpmyadmin/index.php?route=/" data-raw-text="localhost:3306" draggable="false">
+        Server:        localhost:3306
+      </a>
+    </li>
+
+          <li class="breadcrumb-item">
+        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="" alt="" class="icon ic_s_db">
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/structure&amp;db=pokecenterbeta" data-raw-text="pokecenterbeta" draggable="false">
+          Database:          pokecenterbeta
+        </a>
+      </li>
+
+            </ol>
+</nav>
+<div id="topmenucontainer" class="menucontainer">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation" aria-controls="navbarNav" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="width: auto; overflow: visible;">
+      <ul id="topmenu" class="navbar-nav">
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/structure&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props">&nbsp;Structure
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/sql&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="SQL" alt="SQL" class="icon ic_b_sql">&nbsp;SQL
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/search&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Search" alt="Search" class="icon ic_b_search">&nbsp;Search
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/multi-table-query&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Query" alt="Query" class="icon ic_s_db">&nbsp;Query
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/export&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Export" alt="Export" class="icon ic_b_export">&nbsp;Export
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/import&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Import" alt="Import" class="icon ic_b_import">&nbsp;Import
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/operations&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Operations" alt="Operations" class="icon ic_b_tblops">&nbsp;Operations
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/server/privileges&amp;db=pokecenterbeta&amp;checkprivsdb=pokecenterbeta&amp;viewing_mode=db">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Privileges" alt="Privileges" class="icon ic_s_rights">&nbsp;Privileges
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/routines&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Routines" alt="Routines" class="icon ic_b_routines">&nbsp;Routines
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/events&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Events" alt="Events" class="icon ic_b_events">&nbsp;Events
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/triggers&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Triggers" alt="Triggers" class="icon ic_b_triggers">&nbsp;Triggers
+                          </a>
+          </li>
+                  <li class="nav-item active">
+            <a class="nav-link text-nowrap" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta">
+              <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Designer" alt="Designer" class="icon ic_b_relations">&nbsp;Designer
+                              <span class="visually-hidden">(current)</span>
+                          </a>
+          </li>
+              <li class="nav-item dropdown d-none" style=""><a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img alt="" title="" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" class="icon ic_b_more">More</a><ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown"></ul></li></ul>
+    </div>
+  </nav>
+</div>
+</div>
+
+
+
+    <span id="page_nav_icons" class="d-print-none">
+      <span id="lock_page_icon"></span>
+      <span id="page_settings_icon" style="display: none;">
+        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Page-related settings" alt="Page-related settings" class="icon ic_s_cog">
+      </span>
+      <a id="goto_pagetop" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Click on the bar to scroll to top of page" alt="Click on the bar to scroll to top of page" class="icon ic_s_top"></a>
+    </span>
+  
+  <div id="pma_console_container" class="d-print-none">
+    <div id="pma_console" style="margin-left: 243px;">
+                <div class="toolbar collapsed">
+                    <div class="switch_button console_switch">
+            <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="SQL Query Console" alt="SQL Query Console" class="icon ic_console">
+            <span>Console</span>
+        </div>
+                            <div class="button clear">
+            
+            <span>Clear</span>
+        </div>
+                            <div class="button history">
+            
+            <span>History</span>
+        </div>
+                            <div class="button options">
+            
+            <span>Options</span>
+        </div>
+                            <div class="">
+            
+            <span></span>
+        </div>
+                            <div class="button debug hide">
+            
+            <span>Debug SQL</span>
+        </div>
+            </div>
+                <div class="content" style="height: 98.248px; margin-bottom: -98.2344px; display: none;">
+            <div class="console_message_container">
+                <div class="message welcome binded">
+                    <span id="instructions-0">
+                        Press Ctrl+Enter to execute query                    </span>
+                    <span class="hide" id="instructions-1">
+                        Press Enter to execute query                    </span>
+                </div>
+                            <div class="message collapsed binded successed" msgid="132993271004" targetdb="pokecenterbeta" targettable="trades"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="">
+            
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                            : <span>pokecenterbeta</span>
+                    </span>
+                            <span class="text query_time" title="Tue Jan 21 2025 11:31:14 GMT+0100 (heure normale d’Europe centrale)">
+            Queried time
+                            : <span>11:31:14</span>
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">DROP</span> <span class="cm-keyword">TABLE</span> `trades`</div></div><div class="message collapsed binded successed" msgid="551385797027" targetdb="pokecenterbeta" targettable="sealed"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="">
+            
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                            : <span>pokecenterbeta</span>
+                    </span>
+                            <span class="text query_time" title="Tue Jan 21 2025 11:31:18 GMT+0100 (heure normale d’Europe centrale)">
+            Queried time
+                            : <span>11:31:18</span>
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">DROP</span> <span class="cm-keyword">TABLE</span> `sealed`</div></div><div class="message collapsed binded successed" msgid="703040191637" targetdb="pokecenterbeta" targettable="cards"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="">
+            
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                            : <span>pokecenterbeta</span>
+                    </span>
+                            <span class="text query_time" title="Tue Jan 21 2025 11:31:25 GMT+0100 (heure normale d’Europe centrale)">
+            Queried time
+                            : <span>11:31:25</span>
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">DROP</span> <span class="cm-keyword">TABLE</span> `cards`</div></div><div class="message collapsed binded successed" msgid="399954869537" targetdb="pokecenterbeta" targettable="items"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="">
+            
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                            : <span>pokecenterbeta</span>
+                    </span>
+                            <span class="text query_time" title="Tue Jan 21 2025 11:31:29 GMT+0100 (heure normale d’Europe centrale)">
+            Queried time
+                            : <span>11:31:29</span>
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">DROP</span> <span class="cm-keyword">TABLE</span> `items`</div></div></div><!-- console_message_container -->
+            <div class="query_input">
+                <span class="console_query_input"><div class="CodeMirror cm-s-pma CodeMirror-wrap" translate="no"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 16px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; min-height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 16px; margin-bottom: -15px; border-right-width: 35px; min-height: 20px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 0px; top: 0px; height: 19.6875px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 35px; width: 1px; border-bottom: 0px solid transparent; top: 20px;"></div><div class="CodeMirror-gutters" style="height: 55px;"><div class="CodeMirror-gutter CodeMirror-lint-markers"></div></div></div></div></span>
+            </div>
+        </div><!-- message end -->
+                <div class="mid_layer"></div>
+                <div class="card ungrouped" id="debug_console">
+            <div class="toolbar ">
+                    <div class="button order order_asc active">
+            
+            <span>ascending</span>
+        </div>
+                            <div class="button order order_desc">
+            
+            <span>descending</span>
+        </div>
+                            <div class="text">
+            
+            <span>Order:</span>
+        </div>
+                            <div class="switch_button">
+            
+            <span>Debug SQL</span>
+        </div>
+                            <div class="button order_by sort_count">
+            
+            <span>Count</span>
+        </div>
+                            <div class="button order_by sort_exec active">
+            
+            <span>Execution order</span>
+        </div>
+                            <div class="button order_by sort_time">
+            
+            <span>Time taken</span>
+        </div>
+                            <div class="text">
+            
+            <span>Order by:</span>
+        </div>
+                            <div class="button group_queries">
+            
+            <span>Group queries</span>
+        </div>
+                            <div class="button ungroup_queries">
+            
+            <span>Ungroup queries</span>
+        </div>
+            </div>
+            <div class="content debug" style="height: 98.248px;">
+                <div class="message welcome binded">Some error occurred while getting SQL debug info.</div>
+                <div class="debugLog"></div>
+            </div> <!-- Content -->
+            <div class="templates">
+                <div class="debug_query action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action dbg_show_trace">
+            Show trace
+                    </span>
+                            <span class="action dbg_hide_trace">
+            Hide trace
+                    </span>
+                            <span class="text count hide">
+            Count
+                    </span>
+                            <span class="text time">
+            Time taken
+                    </span>
+            </div>
+            </div> <!-- Template -->
+        </div> <!-- Debug SQL card -->
+                        <div class="card" id="pma_console_options">
+            <div class="toolbar ">
+                    <div class="switch_button">
+            
+            <span>Options</span>
+        </div>
+                            <div class="button default">
+            
+            <span>Set default</span>
+        </div>
+            </div>
+            <div class="content" style="height: 101px;">
+                <label>
+                    <input type="checkbox" name="always_expand">Always expand query messages                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="start_history">Show query history at start                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="current_query">Show current browsing query                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="enter_executes">
+                        Execute queries on Enter and insert new line with Shift+Enter. To make this permanent, view settings.                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="dark_theme">Switch to dark theme                </label>
+                <br>
+            </div>
+        </div> <!-- Options card -->
+        <div class="templates">
+                        <div class="query_actions">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="">
+            
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                            : <span></span>
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                            : <span></span>
+                    </span>
+            </div>
+        </div>
+    </div> <!-- #console end -->
+</div> <!-- #console_container end -->
+
+
+  <div id="page_content" style="margin-left: 3px;"><script type="text/javascript">
+var designerConfig = {"db":"pokecenterbeta","scriptTables":{"j_tabs":{"pokecenterbeta.cards":1,"pokecenterbeta.failed_jobs":1,"pokecenterbeta.items":1,"pokecenterbeta.migrations":1,"pokecenterbeta.password_reset_tokens":1,"pokecenterbeta.personal_access_tokens":1,"pokecenterbeta.sales":1,"pokecenterbeta.sealed":1,"pokecenterbeta.trades":1,"pokecenterbeta.users":1},"h_tabs":{"pokecenterbeta.cards":1,"pokecenterbeta.failed_jobs":1,"pokecenterbeta.items":1,"pokecenterbeta.migrations":1,"pokecenterbeta.password_reset_tokens":1,"pokecenterbeta.personal_access_tokens":1,"pokecenterbeta.sales":1,"pokecenterbeta.sealed":1,"pokecenterbeta.trades":1,"pokecenterbeta.users":1}},"scriptContr":[{"cards_item_id_foreign":{"pokecenterbeta.cards":{"item_id":["pokecenterbeta.items","id"]}}},{"items_user_id_foreign":{"pokecenterbeta.items":{"user_id":["pokecenterbeta.users","id"]}}},{"sales_buyer_id_foreign":{"pokecenterbeta.sales":{"buyer_id":["pokecenterbeta.users","id"]}}},{"sales_item_id_foreign":{"pokecenterbeta.sales":{"item_id":["pokecenterbeta.items","id"]}}},{"sales_seller_id_foreign":{"pokecenterbeta.sales":{"seller_id":["pokecenterbeta.users","id"]}}},{"sealed_item_id_foreign":{"pokecenterbeta.sealed":{"item_id":["pokecenterbeta.items","id"]}}},{"trades_initiator_item_id_foreign":{"pokecenterbeta.trades":{"initiator_item_id":["pokecenterbeta.items","id"]}}},{"trades_receiver_item_id_foreign":{"pokecenterbeta.trades":{"receiver_item_id":["pokecenterbeta.items","id"]}}}],"server":1,"scriptDisplayField":{"cards":"rarity","failed_jobs":"uuid","items":"item_name","migrations":"migration","password_reset_tokens":"email","personal_access_tokens":"tokenable_type","trades":"trade_status","users":"name"},"displayPage":-1,"tablesEnabled":false};
+</script>
+
+    <div id="name-panel">
+        <span id="page_name">Untitled</span>
+        <span id="saved_state">*</span>
+    </div>
+<div class="designer_header side-menu" id="side_menu">
+    <a class="M_butt" id="key_Show_left_menu" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#">
+        <img title="Show/Hide tables list" alt="v" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/downarrow2_m.png" data-down="./themes/pmahomme/img/designer/downarrow2_m.png" data-up="./themes/pmahomme/img/designer/uparrow2_m.png">
+        <span class="hide hidable">
+            Show/Hide tables list        </span>
+    </a>
+    <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="toggleFullscreen" class="M_butt">
+        <img title="View in fullscreen" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/viewInFullscreen.png" data-enter="./themes/pmahomme/img/designer/viewInFullscreen.png" data-exit="./themes/pmahomme/img/designer/exitFullscreen.png">
+        <span class="hide hidable" data-exit="Exit fullscreen" data-enter="View in fullscreen">
+            View in fullscreen        </span>
+    </a>
+    <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="addOtherDbTables" class="M_butt">
+        <img title="Add tables from other databases" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/other_table.png">
+        <span class="hide hidable">
+            Add tables from other databases        </span>
+    </a>
+            <a id="newPage" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="M_butt">
+            <img title="New page" alt="" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/page_add.png">
+            <span class="hide hidable">
+                New page            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="editPage" class="M_butt ajax">
+            <img title="Open page" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/page_edit.png">
+            <span class="hide hidable">
+                Open page            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="savePos" class="M_butt">
+            <img title="Save page" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/save.png">
+            <span class="hide hidable">
+                Save page            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="SaveAs" class="M_butt ajax">
+            <img title="Save page as" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/save_as.png">
+            <span class="hide hidable">
+                Save page as            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="delPages" class="M_butt ajax">
+            <img title="Delete pages" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/page_delete.png">
+            <span class="hide hidable">
+                Delete pages            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="StartTableNew" class="M_butt">
+            <img title="Create table" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/table.png">
+            <span class="hide hidable">
+                Create table            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="M_butt" id="rel_button">
+            <img title="Create relationship" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/relation.png">
+            <span class="hide hidable">
+                Create relationship            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="M_butt" id="display_field_button">
+            <img title="Choose column to display" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/display_field.png">
+            <span class="hide hidable">
+                Choose column to display            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="reloadPage" class="M_butt">
+            <img title="Reload" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/reload.png">
+            <span class="hide hidable">
+                Reload            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/faq.html#faq6-31" target="_blank" rel="noopener noreferrer" class="M_butt">
+            <img title="Help" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/help.png">
+            <span class="hide hidable">
+                Help            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="M_butt" id="angular_direct_button">
+        <img title="Angular links / Direct links" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/ang_direct.png">
+        <span class="hide hidable">
+            Angular links / Direct links        </span>
+    </a>
+    <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="M_butt" id="grid_button">
+        <img title="Snap to grid" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/grid.png">
+        <span class="hide hidable">
+            Snap to grid        </span>
+    </a>
+    <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="M_butt" id="key_SB_all">
+        <img title="Small/Big All" alt="v" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/downarrow1.png" data-down="./themes/pmahomme/img/designer/downarrow1.png" data-right="./themes/pmahomme/img/designer/rightarrow1.png">
+        <span class="hide hidable">
+            Small/Big All        </span>
+    </a>
+    <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="SmallTabInvert" class="M_butt">
+        <img title="Toggle small/big" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/bottom.png">
+        <span class="hide hidable">
+            Toggle small/big        </span>
+    </a>
+    <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="relLineInvert" class="M_butt_Selected_down">
+        <img title="Toggle relationship lines" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/toggle_lines.png">
+        <span class="hide hidable">
+            Toggle relationship lines        </span>
+    </a>
+            <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" id="exportPages" class="M_butt">
+            <img title="Export schema" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/export.png">
+            <span class="hide hidable">
+                Export schema            </span>
+        </a>
+        <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="M_butt" id="key_Left_Right">
+        <img title="Move Menu" alt="&gt;" data-right="./themes/pmahomme/img/designer/2leftarrow_m.png" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/2rightarrow_m.png">
+        <span class="hide hidable">
+            Move Menu        </span>
+    </a>
+    <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="M_butt" id="pin_Text">
+        <img title="Pin text" alt="&gt;" data-right="./themes/pmahomme/img/designer/anchor.png" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/anchor.png">
+        <span class="hide hidable">
+            Pin text        </span>
+    </a>
+</div>
+<div id="canvas_outer">
+    <form action="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta" id="container-form" method="post" name="form1">
+        <div id="osn_tab">
+            <canvas class="designer" id="canvas" width="1673" height="942" style="display: inline-block;"></canvas>
+        </div>
+        <div id="layer_menu" class="hide" style="top: -1000px;">
+            <div class="text-center">
+                <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="M_butt" target="_self">
+                    <img title="Hide/Show all" alt="v" id="key_HS_all" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/downarrow1.png" data-down="./themes/pmahomme/img/designer/downarrow1.png" data-right="./themes/pmahomme/img/designer/rightarrow1.png">
+                </a>
+                <a href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#" class="M_butt" target="_self">
+                    <img alt="v" id="key_HS" title="Hide/Show tables with no relationship" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/downarrow2.png" data-down="./themes/pmahomme/img/designer/downarrow2.png" data-right="./themes/pmahomme/img/designer/rightarrow2.png">
+                </a>
+            </div>
+            <div id="id_scroll_tab" class="scroll_tab">
+                <table class="table table-sm ps-1"><tr>    <td title="Structure" width="1px" class="L_butt2_1">        <img alt="" db="pokecenterbeta" table_name="cards" class="scroll_tab_struct" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec.png">    </td>    <td width="1px">        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_pokecenterbeta.cards" style="margin:0;" type="checkbox" value="pokecenterbeta.cards" checked="">    </td>    <td class="designer_Tabs" designer_url_table_name="pokecenterbeta.cards">pokecenterbeta.cards</td></tr><tr>    <td title="Structure" width="1px" class="L_butt2_1">        <img alt="" db="pokecenterbeta" table_name="failed_jobs" class="scroll_tab_struct" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec.png">    </td>    <td width="1px">        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_pokecenterbeta.failed_jobs" style="margin:0;" type="checkbox" value="pokecenterbeta.failed_jobs" checked="">    </td>    <td class="designer_Tabs" designer_url_table_name="pokecenterbeta.failed_jobs">pokecenterbeta.failed_jobs</td></tr><tr>    <td title="Structure" width="1px" class="L_butt2_1">        <img alt="" db="pokecenterbeta" table_name="items" class="scroll_tab_struct" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec.png">    </td>    <td width="1px">        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_pokecenterbeta.items" style="margin:0;" type="checkbox" value="pokecenterbeta.items" checked="">    </td>    <td class="designer_Tabs" designer_url_table_name="pokecenterbeta.items">pokecenterbeta.items</td></tr><tr>    <td title="Structure" width="1px" class="L_butt2_1">        <img alt="" db="pokecenterbeta" table_name="migrations" class="scroll_tab_struct" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec.png">    </td>    <td width="1px">        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_pokecenterbeta.migrations" style="margin:0;" type="checkbox" value="pokecenterbeta.migrations" checked="">    </td>    <td class="designer_Tabs" designer_url_table_name="pokecenterbeta.migrations">pokecenterbeta.migrations</td></tr><tr>    <td title="Structure" width="1px" class="L_butt2_1">        <img alt="" db="pokecenterbeta" table_name="password_reset_tokens" class="scroll_tab_struct" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec.png">    </td>    <td width="1px">        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_pokecenterbeta.password_reset_tokens" style="margin:0;" type="checkbox" value="pokecenterbeta.password_reset_tokens" checked="">    </td>    <td class="designer_Tabs" designer_url_table_name="pokecenterbeta.password_reset_tokens">pokecenterbeta.password_reset_tokens</td></tr><tr>    <td title="Structure" width="1px" class="L_butt2_1">        <img alt="" db="pokecenterbeta" table_name="personal_access_tokens" class="scroll_tab_struct" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec.png">    </td>    <td width="1px">        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_pokecenterbeta.personal_access_tokens" style="margin:0;" type="checkbox" value="pokecenterbeta.personal_access_tokens" checked="">    </td>    <td class="designer_Tabs" designer_url_table_name="pokecenterbeta.personal_access_tokens">pokecenterbeta.personal_access_tokens</td></tr><tr>    <td title="Structure" width="1px" class="L_butt2_1">        <img alt="" db="pokecenterbeta" table_name="sales" class="scroll_tab_struct" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec.png">    </td>    <td width="1px">        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_pokecenterbeta.sales" style="margin:0;" type="checkbox" value="pokecenterbeta.sales" checked="">    </td>    <td class="designer_Tabs" designer_url_table_name="pokecenterbeta.sales">pokecenterbeta.sales</td></tr><tr>    <td title="Structure" width="1px" class="L_butt2_1">        <img alt="" db="pokecenterbeta" table_name="sealed" class="scroll_tab_struct" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec.png">    </td>    <td width="1px">        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_pokecenterbeta.sealed" style="margin:0;" type="checkbox" value="pokecenterbeta.sealed" checked="">    </td>    <td class="designer_Tabs" designer_url_table_name="pokecenterbeta.sealed">pokecenterbeta.sealed</td></tr><tr>    <td title="Structure" width="1px" class="L_butt2_1">        <img alt="" db="pokecenterbeta" table_name="trades" class="scroll_tab_struct" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec.png">    </td>    <td width="1px">        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_pokecenterbeta.trades" style="margin:0;" type="checkbox" value="pokecenterbeta.trades" checked="">    </td>    <td class="designer_Tabs" designer_url_table_name="pokecenterbeta.trades">pokecenterbeta.trades</td></tr><tr>    <td title="Structure" width="1px" class="L_butt2_1">        <img alt="" db="pokecenterbeta" table_name="users" class="scroll_tab_struct" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec.png">    </td>    <td width="1px">        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_pokecenterbeta.users" style="margin:0;" type="checkbox" value="pokecenterbeta.users" checked="">    </td>    <td class="designer_Tabs" designer_url_table_name="pokecenterbeta.users">pokecenterbeta.users</td></tr></table>
+            </div>
+                        <div class="text-center">
+                Number of tables: <span id="tables_counter">10</span>
+            </div>
+            <div id="layer_menu_sizer">
+                  <img class="icon float-start" id="layer_menu_sizer_btn" data-right="./themes/pmahomme/img/designer/resizeright.png" src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/resize.png">
+            </div>
+        </div>
+                                            <input name="t_x[pokecenterbeta.cards]" type="hidden" id="t_x_pokecenterbeta.cards_">
+    <input name="t_y[pokecenterbeta.cards]" type="hidden" id="t_y_pokecenterbeta.cards_">
+    <input name="t_v[pokecenterbeta.cards]" type="hidden" id="t_v_pokecenterbeta.cards_">
+    <input name="t_h[pokecenterbeta.cards]" type="hidden" id="t_h_pokecenterbeta.cards_">
+    <table id="pokecenterbeta.cards" db_url="pokecenterbeta" table_name_url="cards" cellpadding="0" cellspacing="0" class="table table-sm table-striped table-hover w-auto designer_tab" style="position: absolute; left: 1025px; top: 23px; display: block; z-index: 1;" data-left="1025" data-top="23"> <!--"-->
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_pokecenterbeta.cards" table_name="pokecenterbeta.cards">v</td>
+                <td class="small_tab_pref small_tab_pref_1" db="pokecenterbeta" db_url="pokecenterbeta" table_name="cards" table_name_url="cards">
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_pokecenterbeta.cards" class="tab_zag" table_name="pokecenterbeta.cards" query_set="0">
+                    <span class="owner">pokecenterbeta</span>
+                    cards
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_pokecenterbeta.cards">
+                                                                                                                                                                                <tr id="id_tr_cards.id" class="tab_field" click_field_param="cards,id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.cards.id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_cards.rarity" class="tab_field_3" click_field_param="cards,rarity,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.cards.rarity">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            rarity : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_cards.item_id" class="tab_field" click_field_param="cards,item_id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.cards.item_id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            item_id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_cards.created_at" class="tab_field" click_field_param="cards,created_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.cards.created_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            created_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_cards.updated_at" class="tab_field" click_field_param="cards,updated_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.cards.updated_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            updated_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+                            <input name="t_x[pokecenterbeta.failed_jobs]" type="hidden" id="t_x_pokecenterbeta.failed_jobs_">
+    <input name="t_y[pokecenterbeta.failed_jobs]" type="hidden" id="t_y_pokecenterbeta.failed_jobs_">
+    <input name="t_v[pokecenterbeta.failed_jobs]" type="hidden" id="t_v_pokecenterbeta.failed_jobs_">
+    <input name="t_h[pokecenterbeta.failed_jobs]" type="hidden" id="t_h_pokecenterbeta.failed_jobs_">
+    <table id="pokecenterbeta.failed_jobs" db_url="pokecenterbeta" table_name_url="failed_jobs" cellpadding="0" cellspacing="0" class="table table-sm table-striped table-hover w-auto designer_tab" style="position: absolute; left: 44px; top: 475px; display: block; z-index: 1;"> <!--"-->
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_pokecenterbeta.failed_jobs" table_name="pokecenterbeta.failed_jobs">v</td>
+                <td class="small_tab_pref small_tab_pref_1" db="pokecenterbeta" db_url="pokecenterbeta" table_name="failed_jobs" table_name_url="failed_jobs">
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_pokecenterbeta.failed_jobs" class="tab_zag text-nowrap tab_zag_noquery" table_name="pokecenterbeta.failed_jobs" query_set="0">
+                    <span class="owner">pokecenterbeta</span>
+                    failed_jobs
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_pokecenterbeta.failed_jobs">
+                                                                                                                                                                                <tr id="id_tr_failed_jobs.id" class="tab_field" click_field_param="failed_jobs,id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.failed_jobs.id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_failed_jobs.uuid" class="tab_field_3" click_field_param="failed_jobs,uuid,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.failed_jobs.uuid">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            uuid : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_failed_jobs.connection" class="tab_field" click_field_param="failed_jobs,connection,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.failed_jobs.connection">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            connection : text
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_failed_jobs.queue" class="tab_field" click_field_param="failed_jobs,queue,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.failed_jobs.queue">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            queue : text
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_failed_jobs.payload" class="tab_field" click_field_param="failed_jobs,payload,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.failed_jobs.payload">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            payload : longtext
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_failed_jobs.exception" class="tab_field" click_field_param="failed_jobs,exception,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.failed_jobs.exception">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            exception : longtext
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_failed_jobs.failed_at" class="tab_field" click_field_param="failed_jobs,failed_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.failed_jobs.failed_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            failed_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+                            <input name="t_x[pokecenterbeta.items]" type="hidden" id="t_x_pokecenterbeta.items_">
+    <input name="t_y[pokecenterbeta.items]" type="hidden" id="t_y_pokecenterbeta.items_">
+    <input name="t_v[pokecenterbeta.items]" type="hidden" id="t_v_pokecenterbeta.items_">
+    <input name="t_h[pokecenterbeta.items]" type="hidden" id="t_h_pokecenterbeta.items_">
+    <table id="pokecenterbeta.items" db_url="pokecenterbeta" table_name_url="items" cellpadding="0" cellspacing="0" class="table table-sm table-striped table-hover w-auto designer_tab" style="position: absolute; left: 494px; top: 213px; display: block; z-index: 1;" data-left="494" data-top="213"> <!--"-->
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_pokecenterbeta.items" table_name="pokecenterbeta.items">v</td>
+                <td class="small_tab_pref small_tab_pref_1" db="pokecenterbeta" db_url="pokecenterbeta" table_name="items" table_name_url="items">
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_pokecenterbeta.items" class="tab_zag" table_name="pokecenterbeta.items" query_set="0">
+                    <span class="owner">pokecenterbeta</span>
+                    items
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_pokecenterbeta.items">
+                                                                                                                                                                                <tr id="id_tr_items.id" class="tab_field" click_field_param="items,id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.item_name" class="tab_field_3" click_field_param="items,item_name,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.item_name">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            item_name : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.item_description" class="tab_field" click_field_param="items,item_description,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.item_description">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            item_description : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.item_language" class="tab_field" click_field_param="items,item_language,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.item_language">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            item_language : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.item_serie" class="tab_field" click_field_param="items,item_serie,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.item_serie">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            item_serie : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.item_price" class="tab_field" click_field_param="items,item_price,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.item_price">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            item_price : double(15,8)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.item_quality" class="tab_field" click_field_param="items,item_quality,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.item_quality">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            item_quality : enum('poor','fair','good','very good','excellent','mint','gem mint')
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.item_grading" class="tab_field" click_field_param="items,item_grading,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.item_grading">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            item_grading : tinyint(1)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.item_acquired_date" class="tab_field" click_field_param="items,item_acquired_date,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.item_acquired_date">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            item_acquired_date : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.user_id" class="tab_field" click_field_param="items,user_id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.user_id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            user_id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.created_at" class="tab_field" click_field_param="items,created_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.created_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            created_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_items.updated_at" class="tab_field" click_field_param="items,updated_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.items.updated_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            updated_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+                            <input name="t_x[pokecenterbeta.migrations]" type="hidden" id="t_x_pokecenterbeta.migrations_">
+    <input name="t_y[pokecenterbeta.migrations]" type="hidden" id="t_y_pokecenterbeta.migrations_">
+    <input name="t_v[pokecenterbeta.migrations]" type="hidden" id="t_v_pokecenterbeta.migrations_">
+    <input name="t_h[pokecenterbeta.migrations]" type="hidden" id="t_h_pokecenterbeta.migrations_">
+    <table id="pokecenterbeta.migrations" db_url="pokecenterbeta" table_name_url="migrations" cellpadding="0" cellspacing="0" class="table table-sm table-striped table-hover w-auto designer_tab" style="position: absolute; left: 364px; top: 39px; display: block; z-index: 1;" data-left="364" data-top="39"> <!--"-->
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_pokecenterbeta.migrations" table_name="pokecenterbeta.migrations">v</td>
+                <td class="small_tab_pref small_tab_pref_1" db="pokecenterbeta" db_url="pokecenterbeta" table_name="migrations" table_name_url="migrations">
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_pokecenterbeta.migrations" class="tab_zag" table_name="pokecenterbeta.migrations" query_set="0">
+                    <span class="owner">pokecenterbeta</span>
+                    migrations
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_pokecenterbeta.migrations">
+                                                                                                                                                                                <tr id="id_tr_migrations.id" class="tab_field" click_field_param="migrations,id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.migrations.id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            id : int unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_migrations.migration" class="tab_field_3" click_field_param="migrations,migration,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.migrations.migration">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            migration : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_migrations.batch" class="tab_field" click_field_param="migrations,batch,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.migrations.batch">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            batch : int
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+                            <input name="t_x[pokecenterbeta.password_reset_tokens]" type="hidden" id="t_x_pokecenterbeta.password_reset_tokens_">
+    <input name="t_y[pokecenterbeta.password_reset_tokens]" type="hidden" id="t_y_pokecenterbeta.password_reset_tokens_">
+    <input name="t_v[pokecenterbeta.password_reset_tokens]" type="hidden" id="t_v_pokecenterbeta.password_reset_tokens_">
+    <input name="t_h[pokecenterbeta.password_reset_tokens]" type="hidden" id="t_h_pokecenterbeta.password_reset_tokens_">
+    <table id="pokecenterbeta.password_reset_tokens" db_url="pokecenterbeta" table_name_url="password_reset_tokens" cellpadding="0" cellspacing="0" class="table table-sm table-striped table-hover w-auto designer_tab" style="position: absolute; left: 50px; top: 352px; display: block; z-index: 1;" data-left="50" data-top="352"> <!--"-->
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_pokecenterbeta.password_reset_tokens" table_name="pokecenterbeta.password_reset_tokens">v</td>
+                <td class="small_tab_pref small_tab_pref_1" db="pokecenterbeta" db_url="pokecenterbeta" table_name="password_reset_tokens" table_name_url="password_reset_tokens">
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_pokecenterbeta.password_reset_tokens" class="tab_zag" table_name="pokecenterbeta.password_reset_tokens" query_set="0">
+                    <span class="owner">pokecenterbeta</span>
+                    password_reset_tokens
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_pokecenterbeta.password_reset_tokens">
+                                                                                                                                                                                <tr id="id_tr_password_reset_tokens.email" class="tab_field_3" click_field_param="password_reset_tokens,email,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.password_reset_tokens.email">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            email : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_password_reset_tokens.token" class="tab_field" click_field_param="password_reset_tokens,token,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.password_reset_tokens.token">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            token : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_password_reset_tokens.created_at" class="tab_field" click_field_param="password_reset_tokens,created_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.password_reset_tokens.created_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            created_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+                            <input name="t_x[pokecenterbeta.personal_access_tokens]" type="hidden" id="t_x_pokecenterbeta.personal_access_tokens_">
+    <input name="t_y[pokecenterbeta.personal_access_tokens]" type="hidden" id="t_y_pokecenterbeta.personal_access_tokens_">
+    <input name="t_v[pokecenterbeta.personal_access_tokens]" type="hidden" id="t_v_pokecenterbeta.personal_access_tokens_">
+    <input name="t_h[pokecenterbeta.personal_access_tokens]" type="hidden" id="t_h_pokecenterbeta.personal_access_tokens_">
+    <table id="pokecenterbeta.personal_access_tokens" db_url="pokecenterbeta" table_name_url="personal_access_tokens" cellpadding="0" cellspacing="0" class="table table-sm table-striped table-hover w-auto designer_tab" style="position: absolute; left: 53px; top: 36px; display: block; z-index: 1;" data-left="53" data-top="36"> <!--"-->
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_pokecenterbeta.personal_access_tokens" table_name="pokecenterbeta.personal_access_tokens">v</td>
+                <td class="small_tab_pref small_tab_pref_1" db="pokecenterbeta" db_url="pokecenterbeta" table_name="personal_access_tokens" table_name_url="personal_access_tokens">
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_pokecenterbeta.personal_access_tokens" class="tab_zag" table_name="pokecenterbeta.personal_access_tokens" query_set="0">
+                    <span class="owner">pokecenterbeta</span>
+                    personal_access_tokens
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_pokecenterbeta.personal_access_tokens">
+                                                                                                                                                                                <tr id="id_tr_personal_access_tokens.id" class="tab_field" click_field_param="personal_access_tokens,id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.personal_access_tokens.id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_personal_access_tokens.tokenable_type" class="tab_field_3" click_field_param="personal_access_tokens,tokenable_type,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.personal_access_tokens.tokenable_type">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            tokenable_type : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_personal_access_tokens.tokenable_id" class="tab_field" click_field_param="personal_access_tokens,tokenable_id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.personal_access_tokens.tokenable_id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            tokenable_id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_personal_access_tokens.name" class="tab_field" click_field_param="personal_access_tokens,name,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.personal_access_tokens.name">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            name : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_personal_access_tokens.token" class="tab_field" click_field_param="personal_access_tokens,token,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.personal_access_tokens.token">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            token : varchar(64)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_personal_access_tokens.abilities" class="tab_field" click_field_param="personal_access_tokens,abilities,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.personal_access_tokens.abilities">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            abilities : text
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_personal_access_tokens.last_used_at" class="tab_field" click_field_param="personal_access_tokens,last_used_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.personal_access_tokens.last_used_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            last_used_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_personal_access_tokens.expires_at" class="tab_field" click_field_param="personal_access_tokens,expires_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.personal_access_tokens.expires_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            expires_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_personal_access_tokens.created_at" class="tab_field" click_field_param="personal_access_tokens,created_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.personal_access_tokens.created_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            created_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_personal_access_tokens.updated_at" class="tab_field" click_field_param="personal_access_tokens,updated_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.personal_access_tokens.updated_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            updated_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+                            <input name="t_x[pokecenterbeta.sales]" type="hidden" id="t_x_pokecenterbeta.sales_">
+    <input name="t_y[pokecenterbeta.sales]" type="hidden" id="t_y_pokecenterbeta.sales_">
+    <input name="t_v[pokecenterbeta.sales]" type="hidden" id="t_v_pokecenterbeta.sales_">
+    <input name="t_h[pokecenterbeta.sales]" type="hidden" id="t_h_pokecenterbeta.sales_">
+    <table id="pokecenterbeta.sales" db_url="pokecenterbeta" table_name_url="sales" cellpadding="0" cellspacing="0" class="table table-sm table-striped table-hover w-auto designer_tab" style="position: absolute; left: 1377px; top: 401px; display: block; z-index: 1;" data-left="1377" data-top="401"> <!--"-->
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_pokecenterbeta.sales" table_name="pokecenterbeta.sales">v</td>
+                <td class="small_tab_pref small_tab_pref_1" db="pokecenterbeta" db_url="pokecenterbeta" table_name="sales" table_name_url="sales">
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_pokecenterbeta.sales" class="tab_zag" table_name="pokecenterbeta.sales" query_set="0">
+                    <span class="owner">pokecenterbeta</span>
+                    sales
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_pokecenterbeta.sales">
+                                                                                                                                                                                <tr id="id_tr_sales.id" class="tab_field" click_field_param="sales,id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sales.id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_sales.seller_id" class="tab_field" click_field_param="sales,seller_id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sales.seller_id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            seller_id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_sales.buyer_id" class="tab_field" click_field_param="sales,buyer_id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sales.buyer_id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            buyer_id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_sales.item_id" class="tab_field" click_field_param="sales,item_id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sales.item_id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            item_id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_sales.price" class="tab_field" click_field_param="sales,price,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sales.price">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            price : double(15,8)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_sales.created_at" class="tab_field" click_field_param="sales,created_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sales.created_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            created_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_sales.updated_at" class="tab_field" click_field_param="sales,updated_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sales.updated_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            updated_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+                            <input name="t_x[pokecenterbeta.sealed]" type="hidden" id="t_x_pokecenterbeta.sealed_">
+    <input name="t_y[pokecenterbeta.sealed]" type="hidden" id="t_y_pokecenterbeta.sealed_">
+    <input name="t_v[pokecenterbeta.sealed]" type="hidden" id="t_v_pokecenterbeta.sealed_">
+    <input name="t_h[pokecenterbeta.sealed]" type="hidden" id="t_h_pokecenterbeta.sealed_">
+    <table id="pokecenterbeta.sealed" db_url="pokecenterbeta" table_name_url="sealed" cellpadding="0" cellspacing="0" class="table table-sm table-striped table-hover w-auto designer_tab" style="position: absolute; left: 1445px; top: 34px; display: block; z-index: 1;" data-left="1445" data-top="34"> <!--"-->
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_pokecenterbeta.sealed" table_name="pokecenterbeta.sealed">v</td>
+                <td class="small_tab_pref small_tab_pref_1" db="pokecenterbeta" db_url="pokecenterbeta" table_name="sealed" table_name_url="sealed">
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_pokecenterbeta.sealed" class="tab_zag" table_name="pokecenterbeta.sealed" query_set="0">
+                    <span class="owner">pokecenterbeta</span>
+                    sealed
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_pokecenterbeta.sealed">
+                                                                                                                                                                                <tr id="id_tr_sealed.id" class="tab_field" click_field_param="sealed,id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sealed.id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_sealed.item_id" class="tab_field" click_field_param="sealed,item_id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sealed.item_id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            item_id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_sealed.created_at" class="tab_field" click_field_param="sealed,created_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sealed.created_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            created_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_sealed.updated_at" class="tab_field" click_field_param="sealed,updated_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.sealed.updated_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            updated_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+                            <input name="t_x[pokecenterbeta.trades]" type="hidden" id="t_x_pokecenterbeta.trades_">
+    <input name="t_y[pokecenterbeta.trades]" type="hidden" id="t_y_pokecenterbeta.trades_">
+    <input name="t_v[pokecenterbeta.trades]" type="hidden" id="t_v_pokecenterbeta.trades_">
+    <input name="t_h[pokecenterbeta.trades]" type="hidden" id="t_h_pokecenterbeta.trades_">
+    <table id="pokecenterbeta.trades" db_url="pokecenterbeta" table_name_url="trades" cellpadding="0" cellspacing="0" class="table table-sm table-striped table-hover w-auto designer_tab" style="position: absolute; left: 486px; top: 651px; display: block; z-index: 1;" data-left="486" data-top="651"> <!--"-->
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_pokecenterbeta.trades" table_name="pokecenterbeta.trades">v</td>
+                <td class="small_tab_pref small_tab_pref_1" db="pokecenterbeta" db_url="pokecenterbeta" table_name="trades" table_name_url="trades">
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_pokecenterbeta.trades" class="tab_zag" table_name="pokecenterbeta.trades" query_set="0">
+                    <span class="owner">pokecenterbeta</span>
+                    trades
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_pokecenterbeta.trades">
+                                                                                                                                                                                <tr id="id_tr_trades.id" class="tab_field" click_field_param="trades,id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.trades.id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_trades.trade_status" class="tab_field_3" click_field_param="trades,trade_status,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.trades.trade_status">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small.png" alt="*">
+                            trade_status : enum('nothing','pending','confirmed','declined','in delivery','rejected','finish')
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_trades.initiator_item_id" class="tab_field" click_field_param="trades,initiator_item_id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.trades.initiator_item_id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            initiator_item_id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_trades.receiver_item_id" class="tab_field" click_field_param="trades,receiver_item_id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.trades.receiver_item_id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_int.png" alt="*">
+                            receiver_item_id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_trades.trade_date" class="tab_field" click_field_param="trades,trade_date,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.trades.trade_date">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            trade_date : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_trades.created_at" class="tab_field" click_field_param="trades,created_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.trades.created_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            created_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_trades.updated_at" class="tab_field" click_field_param="trades,updated_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.trades.updated_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            updated_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+                            <input name="t_x[pokecenterbeta.users]" type="hidden" id="t_x_pokecenterbeta.users_">
+    <input name="t_y[pokecenterbeta.users]" type="hidden" id="t_y_pokecenterbeta.users_">
+    <input name="t_v[pokecenterbeta.users]" type="hidden" id="t_v_pokecenterbeta.users_">
+    <input name="t_h[pokecenterbeta.users]" type="hidden" id="t_h_pokecenterbeta.users_">
+    <table id="pokecenterbeta.users" db_url="pokecenterbeta" table_name_url="users" cellpadding="0" cellspacing="0" class="table table-sm table-striped table-hover w-auto designer_tab" style="position: absolute; left: 1059px; top: 644px; display: block; z-index: 1;" data-left="1059" data-top="644"> <!--"-->
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_pokecenterbeta.users" table_name="pokecenterbeta.users">v</td>
+                <td class="small_tab_pref small_tab_pref_1" db="pokecenterbeta" db_url="pokecenterbeta" table_name="users" table_name_url="users">
+                    <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_pokecenterbeta.users" class="tab_zag" table_name="pokecenterbeta.users" query_set="0">
+                    <span class="owner">pokecenterbeta</span>
+                    users
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_pokecenterbeta.users">
+                                                                                                                                                                                <tr id="id_tr_users.id" class="tab_field" click_field_param="users,id,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.users.id">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            id : bigint unsigned
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_users.name" class="tab_field_3" click_field_param="users,name,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.users.name">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            name : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_users.email" class="tab_field" click_field_param="users,email,1,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.users.email">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/FieldKey_small.png" alt="*">
+                            email : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_users.email_verified_at" class="tab_field" click_field_param="users,email_verified_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.users.email_verified_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            email_verified_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_users.password" class="tab_field" click_field_param="users,password,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.users.password">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            password : varchar(255)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_users.remember_token" class="tab_field" click_field_param="users,remember_token,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.users.remember_token">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_char.png" alt="*">
+                            remember_token : varchar(100)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_users.created_at" class="tab_field" click_field_param="users,created_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.users.created_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            created_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                                                                                                                    <tr id="id_tr_users.updated_at" class="tab_field" click_field_param="users,updated_at,0,pokecenterbeta">
+                                        <td width="10px" colspan="3" id="pokecenterbeta.users.updated_at">
+                        <div class="text-nowrap">
+                                                        <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/Field_small_date.png" alt="*">
+                            updated_at : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    </form>
+</div>
+<div id="designer_hint"></div>
+<table id="layer_new_relation" class="table table-borderless w-auto hide">
+    <tbody>
+        <tr>
+            <td class="frams1" width="10px">
+            </td>
+            <td class="frams5" width="99%">
+            </td>
+            <td class="frams2" width="10px">
+                <div class="bor">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="frams8">
+            </td>
+            <td class="input_tab p-0">
+                <table class="table table-borderless bg-white mb-0 text-center">
+                    <thead>
+                        <tr>
+                            <td colspan="2" class="text-center text-nowrap">
+                                <strong>
+                                    Create relationship                                </strong>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody id="foreign_relation">
+                        <tr>
+                            <td colspan="2" class="text-center text-nowrap">
+                                <strong>
+                                    FOREIGN KEY
+                                </strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="58" class="text-nowrap">
+                                on delete
+                            </td>
+                            <td width="102">
+                                <select name="on_delete" id="on_delete">
+                                    <option value="nix" selected="selected">
+                                        --
+                                    </option>
+                                    <option value="CASCADE">
+                                        CASCADE
+                                    </option>
+                                    <option value="SET NULL">
+                                        SET NULL
+                                    </option>
+                                    <option value="NO ACTION">
+                                        NO ACTION
+                                    </option>
+                                    <option value="RESTRICT">
+                                        RESTRICT
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-nowrap">
+                                on update
+                            </td>
+                            <td>
+                                <select name="on_update" id="on_update">
+                                    <option value="nix" selected="selected">
+                                        --
+                                    </option>
+                                    <option value="CASCADE">
+                                        CASCADE
+                                    </option>
+                                    <option value="SET NULL">
+                                        SET NULL
+                                    </option>
+                                    <option value="NO ACTION">
+                                        NO ACTION
+                                    </option>
+                                    <option value="RESTRICT">
+                                        RESTRICT
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="text-center text-nowrap">
+                                <input type="button" id="ok_new_rel_panel" class="btn btn-secondary butt" name="Button" value="OK">
+                                <input type="button" id="cancel_new_rel_panel" class="btn btn-secondary butt" name="Button" value="Cancel">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td class="frams6">
+            </td>
+        </tr>
+        <tr>
+            <td class="frams4">
+                <div class="bor">
+                </div>
+            </td>
+            <td class="frams7">
+            </td>
+            <td class="frams3">
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table id="layer_upd_relation" class="table table-borderless w-auto hide">
+    <tbody>
+        <tr>
+            <td class="frams1" width="10px">
+            </td>
+            <td class="frams5" width="99%">
+            </td>
+            <td class="frams2" width="10px">
+                <div class="bor">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="frams8">
+            </td>
+            <td class="input_tab p-0">
+                <table class="table table-borderless bg-white mb-0 text-center">
+                    <tbody><tr>
+                        <td colspan="3" class="text-center text-nowrap">
+                            <strong>
+                                Delete relationship                            </strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-center text-nowrap">
+                            <input id="del_button" name="Button" type="button" class="btn btn-secondary butt" value="Delete">
+                            <input id="cancel_button" type="button" class="btn btn-secondary butt" name="Button" value="Cancel">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+            <td class="frams6">
+            </td>
+        </tr>
+        <tr>
+            <td class="frams4">
+                <div class="bor">
+                </div>
+            </td>
+            <td class="frams7">
+            </td>
+            <td class="frams3">
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div id="PMA_disable_floating_menubar"></div>
+<div class="modal fade" id="designerGoModal" tabindex="-1" aria-labelledby="designerGoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="designerGoModalLabel">Loading</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cancel"></button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="designerModalGoButton">Go</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="designerPromptModal" tabindex="-1" aria-labelledby="designerPromptModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="designerPromptModalLabel">Loading</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cancel"></button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="designerModalYesButton">Yes</button>
+        <button type="button" class="btn btn-secondary" id="designerModalNoButton">No</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="PMA_disable_floating_menubar"></div></div>
+      <div id="selflink" class="d-print-none" style="display: none;">
+      <a href="http://127.0.0.1/phpmyadmin/index.php?route=%2Fdatabase%2Fdesigner&amp;db=pokecenterbeta&amp;server=1" title="Open new phpMyAdmin window" target="_blank" rel="noopener noreferrer">
+                  <img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Open new phpMyAdmin window" alt="Open new phpMyAdmin window" class="icon ic_window-new">
+              </a>
+    </div>
+  
+  
+
+  
+
+
+
+  
+  
+  
+
+<div tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-dialog-buttons ui-draggable ui-resizable" aria-describedby="pma_navigation_settings" aria-labelledby="ui-id-9" style="position: fixed; height: auto; width: 700px; top: 65.141px; left: 598.5px;"><div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle"><span id="ui-id-9" class="ui-dialog-title">Page-related settings</span><button type="button" class="ui-dialog-titlebar-close"></button></div><div id="pma_navigation_settings" class="ui-dialog-content ui-widget-content" style="display: block; width: auto; min-height: 138.141px; max-height: 769.657px; height: auto;"><div class="page_settings"><form method="post" action="http://127.0.0.1/phpmyadmin/index.php?route=%2Fdatabase%2Fdesigner&amp;db=pokecenterbeta&amp;server=1" class="config-form disableAjax">
+  <input type="hidden" name="tab_hash" value="">
+      <input type="hidden" name="check_page_refresh" id="check_page_refresh" value="1">
+    <input type="hidden" name="token" value="6328763a3e5b274e3e7a4a455b7e2355">
+  <input type="hidden" name="submit_save" value="Navi">
+
+  <ul class="nav nav-tabs" id="configFormDisplayTab" role="tablist">
+          <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="Navi_panel-tab" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#Navi_panel" data-bs-toggle="tab" role="tab" aria-controls="Navi_panel" aria-selected="true">Navigation panel</a>
+      </li>
+          <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Navi_tree-tab" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#Navi_tree" data-bs-toggle="tab" role="tab" aria-controls="Navi_tree" aria-selected="false">Navigation tree</a>
+      </li>
+          <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Navi_servers-tab" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#Navi_servers" data-bs-toggle="tab" role="tab" aria-controls="Navi_servers" aria-selected="false">Servers</a>
+      </li>
+          <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Navi_databases-tab" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#Navi_databases" data-bs-toggle="tab" role="tab" aria-controls="Navi_databases" aria-selected="false">Databases</a>
+      </li>
+          <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Navi_tables-tab" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#Navi_tables" data-bs-toggle="tab" role="tab" aria-controls="Navi_tables" aria-selected="false">Tables</a>
+      </li>
+      </ul>
+  <div class="tab-content">
+          <div class="tab-pane fade show active" id="Navi_panel" role="tabpanel" aria-labelledby="Navi_panel-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Navigation panel</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Customize appearance of the navigation panel.</h6>
+            
+            <fieldset class="optbox">
+              <legend>Navigation panel</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="ShowDatabasesNavigationAsTree">Show databases navigation as tree</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_ShowDatabasesNavigationAsTree" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>In the navigation panel, replaces the database tree with a selector</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="ShowDatabasesNavigationAsTree" id="ShowDatabasesNavigationAsTree" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#ShowDatabasesNavigationAsTree" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationLinkWithMainPanel">Link with main panel</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationLinkWithMainPanel" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Link with main panel by highlighting the current database or table.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationLinkWithMainPanel" id="NavigationLinkWithMainPanel" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationLinkWithMainPanel" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationDisplayLogo">Display logo</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationDisplayLogo" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Show logo in navigation panel.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationDisplayLogo" id="NavigationDisplayLogo" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationDisplayLogo" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationLogoLink">Logo link URL</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationLogoLink" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>URL where logo in the navigation panel will point to.</small>
+      </th>
+
+  <td>
+          <input type="text" name="NavigationLogoLink" id="NavigationLogoLink" value="index.php" class="w-75">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationLogoLink" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationLogoLinkWindow">Logo link target</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationLogoLinkWindow" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Open the linked page in the main window (<code>main</code>) or in a new one (<code>new</code>).</small>
+      </th>
+
+  <td>
+          <select name="NavigationLogoLinkWindow" id="NavigationLogoLinkWindow" class="w-75">
+                            <option value="main" selected="">main</option>
+                            <option value="new">new</option>
+              </select>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationLogoLinkWindow" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreePointerEnable">Enable highlighting</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreePointerEnable" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Highlight server under the mouse cursor.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreePointerEnable" id="NavigationTreePointerEnable" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreePointerEnable" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="FirstLevelNavigationItems">Maximum items on first level</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_FirstLevelNavigationItems" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>The number of items that can be displayed on each page on the first level of the navigation tree.</small>
+      </th>
+
+  <td>
+          <input type="number" name="FirstLevelNavigationItems" id="FirstLevelNavigationItems" value="100" class="">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#FirstLevelNavigationItems" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeDisplayItemFilterMinimum">Minimum number of items to display the filter box</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDisplayItemFilterMinimum" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Defines the minimum number of items (tables, views, routines and events) to display a filter box.</small>
+      </th>
+
+  <td>
+          <input type="number" name="NavigationTreeDisplayItemFilterMinimum" id="NavigationTreeDisplayItemFilterMinimum" value="30" class="">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeDisplayItemFilterMinimum" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NumRecentTables">Recently used tables</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NumRecentTables" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Maximum number of recently used tables; set 0 to disable.</small>
+      </th>
+
+  <td>
+          <input type="number" name="NumRecentTables" id="NumRecentTables" value="10" class="">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NumRecentTables" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NumFavoriteTables">Favorite tables</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NumFavoriteTables" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Maximum number of favorite tables; set 0 to disable.</small>
+      </th>
+
+  <td>
+          <input type="number" name="NumFavoriteTables" id="NumFavoriteTables" value="10" class="">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NumFavoriteTables" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationWidth">Navigation panel width</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationWidth" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Set to 0 to collapse navigation panel.</small>
+      </th>
+
+  <td>
+          <input type="number" name="NavigationWidth" id="NavigationWidth" value="240" class="">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationWidth" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+          <div class="tab-pane fade" id="Navi_tree" role="tabpanel" aria-labelledby="Navi_tree-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Navigation tree</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Customize the navigation tree.</h6>
+            
+            <fieldset class="optbox">
+              <legend>Navigation tree</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="MaxNavigationItems">Maximum items in branch</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_MaxNavigationItems" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>The number of items that can be displayed on each page of the navigation tree.</small>
+      </th>
+
+  <td>
+          <input type="number" name="MaxNavigationItems" id="MaxNavigationItems" value="50" class="">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#MaxNavigationItems" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeEnableGrouping">Group items in the tree</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeEnableGrouping" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Group items in the navigation tree (determined by the separator defined in the Databases and Tables tabs above).</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeEnableGrouping" id="NavigationTreeEnableGrouping" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeEnableGrouping" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeEnableExpansion">Enable navigation tree expansion</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeEnableExpansion" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Whether to offer the possibility of tree expansion in the navigation panel.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeEnableExpansion" id="NavigationTreeEnableExpansion" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeEnableExpansion" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeShowTables">Show tables in tree</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowTables" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Whether to show tables under database in the navigation tree</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeShowTables" id="NavigationTreeShowTables" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeShowTables" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeShowViews">Show views in tree</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowViews" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Whether to show views under database in the navigation tree</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeShowViews" id="NavigationTreeShowViews" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeShowViews" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeShowFunctions">Show functions in tree</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowFunctions" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Whether to show functions under database in the navigation tree</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeShowFunctions" id="NavigationTreeShowFunctions" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeShowFunctions" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeShowProcedures">Show procedures in tree</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowProcedures" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Whether to show procedures under database in the navigation tree</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeShowProcedures" id="NavigationTreeShowProcedures" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeShowProcedures" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeShowEvents">Show events in tree</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowEvents" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Whether to show events under database in the navigation tree</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeShowEvents" id="NavigationTreeShowEvents" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeShowEvents" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeAutoexpandSingleDb">Expand single database</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeAutoexpandSingleDb" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Whether to expand single database in the navigation tree automatically.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeAutoexpandSingleDb" id="NavigationTreeAutoexpandSingleDb" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeAutoexpandSingleDb" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+          <div class="tab-pane fade" id="Navi_servers" role="tabpanel" aria-labelledby="Navi_servers-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Servers</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Servers display options.</h6>
+            
+            <fieldset class="optbox">
+              <legend>Servers</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="NavigationDisplayServers">Display servers selection</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationDisplayServers" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Display server choice at the top of the navigation panel.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationDisplayServers" id="NavigationDisplayServers" checked="">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationDisplayServers" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="DisplayServersList">Display servers as a list</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_DisplayServersList" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Show server listing as a list instead of a drop down.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="DisplayServersList" id="DisplayServersList">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#DisplayServersList" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+          <div class="tab-pane fade" id="Navi_databases" role="tabpanel" aria-labelledby="Navi_databases-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Databases</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Databases display options.</h6>
+            
+            <fieldset class="optbox">
+              <legend>Databases</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="NavigationTreeDisplayDbFilterMinimum">Minimum number of databases to display the database filter box</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDisplayDbFilterMinimum" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+      </th>
+
+  <td>
+          <input type="number" name="NavigationTreeDisplayDbFilterMinimum" id="NavigationTreeDisplayDbFilterMinimum" value="30" class="">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeDisplayDbFilterMinimum" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeDbSeparator">Database tree separator</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDbSeparator" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>String that separates databases into different tree levels.</small>
+      </th>
+
+  <td>
+                <input type="text" size="25" name="NavigationTreeDbSeparator" id="NavigationTreeDbSeparator" value="_" class="">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeDbSeparator" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+          <div class="tab-pane fade" id="Navi_tables" role="tabpanel" aria-labelledby="Navi_tables-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Tables</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Tables display options.</h6>
+            
+            <fieldset class="optbox">
+              <legend>Tables</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="NavigationTreeDefaultTabTable">Target for quick access icon</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDefaultTabTable" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+      </th>
+
+  <td>
+          <select name="NavigationTreeDefaultTabTable" id="NavigationTreeDefaultTabTable" class="w-75">
+                            <option value="structure" selected="">Structure</option>
+                            <option value="sql">SQL</option>
+                            <option value="search">Search</option>
+                            <option value="insert">Insert</option>
+                            <option value="browse">Browse</option>
+              </select>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeDefaultTabTable" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeDefaultTabTable2">Target for second quick access icon</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDefaultTabTable2" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+      </th>
+
+  <td>
+          <select name="NavigationTreeDefaultTabTable2" id="NavigationTreeDefaultTabTable2" class="w-75">
+                            <option value="" selected=""></option>
+                            <option value="structure">Structure</option>
+                            <option value="sql">SQL</option>
+                            <option value="search">Search</option>
+                            <option value="insert">Insert</option>
+                            <option value="browse">Browse</option>
+              </select>
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeDefaultTabTable2" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeTableSeparator">Table tree separator</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeTableSeparator" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>String that separates tables into different tree levels.</small>
+      </th>
+
+  <td>
+                <input type="text" size="25" name="NavigationTreeTableSeparator" id="NavigationTreeTableSeparator" value="__" class="">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeTableSeparator" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeTableLevel">Maximum table tree depth</label>
+
+          <span class="doc">
+        <a href="http://127.0.0.1/phpmyadmin/doc/html/config.html#cfg_NavigationTreeTableLevel" target="documentation"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+      </span>
+    
+    
+      </th>
+
+  <td>
+          <input type="number" name="NavigationTreeTableLevel" id="NavigationTreeTableLevel" value="1" class="">
+    
+    
+    
+          <a class="restore-default hide" href="http://127.0.0.1/phpmyadmin/index.php?route=/database/designer&amp;db=pokecenterbeta#NavigationTreeTableLevel" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="./127.0.0.1 _ localhost _ pokecenterbeta _ phpMyAdmin 5.2.0_files/dot.gif" title="Restore default value" alt="Restore default value" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+      </div>
+</form>
+
+<script type="text/javascript">
+  if (typeof configInlineParams === 'undefined' || !Array.isArray(configInlineParams)) {
+    configInlineParams = [];
+  }
+  configInlineParams.push(function () {
+    registerFieldValidator('FirstLevelNavigationItems', 'validatePositiveNumber', true);
+registerFieldValidator('NavigationTreeDisplayItemFilterMinimum', 'validatePositiveNumber', true);
+registerFieldValidator('NumRecentTables', 'validateNonNegativeNumber', true);
+registerFieldValidator('NumFavoriteTables', 'validateNonNegativeNumber', true);
+registerFieldValidator('NavigationWidth', 'validateNonNegativeNumber', true);
+registerFieldValidator('MaxNavigationItems', 'validatePositiveNumber', true);
+registerFieldValidator('NavigationTreeTableLevel', 'validatePositiveNumber', true);
+
+    $.extend(Messages, {
+      'error_nan_p': 'Not\u0020a\u0020positive\u0020number\u0021',
+      'error_nan_nneg': 'Not\u0020a\u0020non\u002Dnegative\u0020number\u0021',
+      'error_incorrect_port': 'Not\u0020a\u0020valid\u0020port\u0020number\u0021',
+      'error_invalid_value': 'Incorrect\u0020value\u0021',
+      'error_value_lte': 'Value\u0020must\u0020be\u0020less\u0020than\u0020or\u0020equal\u0020to\u0020\u0025s\u0021',
+    });
+
+    $.extend(defaultValues, {
+      'ShowDatabasesNavigationAsTree': true,
+      'NavigationLinkWithMainPanel': true,
+      'NavigationDisplayLogo': true,
+      'NavigationLogoLink': 'index.php',
+      'NavigationLogoLinkWindow': ['main'],
+      'NavigationTreePointerEnable': true,
+      'FirstLevelNavigationItems': '100',
+      'NavigationTreeDisplayItemFilterMinimum': '30',
+      'NumRecentTables': '10',
+      'NumFavoriteTables': '10',
+      'NavigationWidth': '240',
+      'MaxNavigationItems': '50',
+      'NavigationTreeEnableGrouping': true,
+      'NavigationTreeEnableExpansion': true,
+      'NavigationTreeShowTables': true,
+      'NavigationTreeShowViews': true,
+      'NavigationTreeShowFunctions': true,
+      'NavigationTreeShowProcedures': true,
+      'NavigationTreeShowEvents': true,
+      'NavigationTreeAutoexpandSingleDb': true,
+      'NavigationDisplayServers': true,
+      'DisplayServersList': false,
+      'NavigationTreeDisplayDbFilterMinimum': '30',
+      'NavigationTreeDbSeparator': '_',
+      'NavigationTreeDefaultTabTable': ['structure'],
+      'NavigationTreeDefaultTabTable2': [''],
+      'NavigationTreeTableSeparator': '__',
+      'NavigationTreeTableLevel': '1'
+    });
+  });
+  if (typeof configScriptLoaded !== 'undefined' && configInlineParams) {
+    loadInlineConfig();
+  }
+</script>
+</div></div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button">Apply</button><button type="button">Cancel</button></div></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div><div class="ui-widget-overlay ui-front" style="z-index: 800;"></div></body></html>

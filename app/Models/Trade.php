@@ -17,6 +17,8 @@ class Trade extends Model
         'trade_status',
         'initiator_item_id',
         'receiver_item_id',
+        'initiator_id',
+        'receiver_id',
         'trade_date',
     ];
 

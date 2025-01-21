@@ -18,7 +18,6 @@ class Sales extends Model
         'buyer_id',
         'item_id',
         'price',
-        'sale_date',
     ];
 
     // Définir les relations
