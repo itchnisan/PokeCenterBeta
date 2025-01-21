@@ -15,20 +15,20 @@ class Trade extends Model
     // Définir les champs qui peuvent être remplis en masse (mass assignable)
     protected $fillable = [
         'trade_status',
-        'initiator_id',
-        'receiver_id',
+        'initiator_item_id',
+        'receiver_item_id',
         'trade_date',
     ];
 
     // Définir les relations
     public function initiator()
     {
-        return $this->belongsTo(User::class, 'initiator_id'); // Relation avec l'utilisateur initiateur
+        return $this->belongsTo(Items::class, 'initiator_item_id'); // Relation avec l'utilisateur initiateur
     }
 
     public function receiver()
     {
-        return $this->belongsTo(User::class, 'receiver_id'); // Relation avec l'utilisateur receveur
+        return $this->belongsTo(User::class, 'receiver_item_id'); // Relation avec l'utilisateur receveur
     }
 
     const trade_status = ['nothing','pending','confirmed','declined','in delivery','rejected','finish'];

@@ -22,15 +22,9 @@ class Items extends Model
         'item_quality',
         'item_grading',
         'item_acquired_date',
-        'trade_id',
         'user_id',
     ];
 
-    // Définir les relations
-    public function trade()
-    {
-        return $this->belongsTo(Trade::class); // Relation avec la table trade
-    }
 
     public function user()
     {
